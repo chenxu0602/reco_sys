@@ -2,8 +2,10 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import os, sys
 
-data_dir = r'C:\Users\darf3\Documents\FLG Work\Rhyme Recommender System'
+# data_dir = r'C:\Users\darf3\Documents\FLG Work\Rhyme Recommender System'
+data_dir = r'.'
 
 # pass in column names for each CSV as the column name is not given in the file and read them using pandas.
 # You can check the column names from the readme file
